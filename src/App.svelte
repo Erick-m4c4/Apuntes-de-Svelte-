@@ -96,7 +96,7 @@ async function ajax(){
 		<h2>Iniciar sesión</h2>
 	{/if}
 	<button on:click={cambio} > Login</button>
-	
+
 	<hr>
 	<h1>BLOQUE EACH</h1>
 	<ul>
@@ -136,8 +136,6 @@ async function ajax(){
 	<hr>
 	<hr>
 
-	<h3>Roxana es una verdadera {nombre}</h3>
-	<input type="text" bind:value={nombre}>
 </main>
 
 <style>
